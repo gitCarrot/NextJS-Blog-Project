@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
 import getSpringContent from "@/app/actions/getSpringMetadata";
+import getSpringMetadata from "@/app/actions/getSpringMetadata";
 
 const getPostContent = (category: string, slug: string) => {
   const folder = `posts/${category}/`;
@@ -12,8 +13,8 @@ const getPostContent = (category: string, slug: string) => {
   return matterResult;
 }
 export const generateStaticParams = async () => {
-  const posts = getPostMetadata("spring_boot");
-
+  const posts = getSpringMetadata();
+  console.log(posts);
   return posts.map((post) => ({
     slug: post.slug,
   }))
