@@ -23,7 +23,7 @@ export default function Home() {
       <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4">
         <div className="bg-zinc-200 h-[30rem] rounded-3xl p-10 flex flex-col gap-16 bg-[url('/gradient-bg.jpg')] bg-cover">
           <h1 className="text-4xl font-semibold">
-            Hello, I'm a GitCarrot.
+            Hello, I am a GitCarrot.
           </h1>
           <p className="flex-1">
           I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. Focused on the backend service using spring boot. I expect to graduate in Spring, 2024.
@@ -52,49 +52,50 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/muscle-carrot.jpg')] bg-center bg-contain bg-no-repeat" />
+        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/ME.jpg')] bg-center bg-contain bg-no-repeat" />
       </section>
 
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4">
-      <Link href="/articles/spring_boot">
+      <Link href="/projects">
         <ProjectPreview
-          name="Spring Boot"
-          description="Spring Boot"
-          imageUrl="/springboot.png"
+          name="Projects"
+          description="Team / Personal Projects"
+          imageUrl="/web.png"
           bgColor="#313442"
           dark
         />
       </Link>
-      <Link href="/articles/algorithm">
+      <Link href="/articles">
         <ProjectPreview
-          name="Algorithm"
-          description="알고리즘"
-          imageUrl="/project-2.png"
+          name="Articles"
+          description="IT technique & engineering"
+          imageUrl="/algorithm.png"
           bgColor="#685cdd"
           dark
         />
       </Link>
         <ProjectPreview
-          name="Admin Onboarding"
+          name="Data Engineering"
           description="Increase user engagement"
           imageUrl="/project-3.png"
         />
         <ProjectPreview
           name="Project Dashboard"
           description="Project management app"
+          imageUrl="/p"
           bgColor="#4e4e56"
           dark
         />
         <ProjectPreview
-          name="Newsy App"
-          description="News aggregator app"
-          imageUrl="/project-2.png"
+          name="App"
+          description="To be Continue"
+          imageUrl=""
           bgColor="#171717"
           dark
         />
         <ProjectPreview
-          name="Krypto"
-          description="Analyze crypto currency"
+          name="Crypto"
+          description="To be Continue"
           imageUrl="/project-3.png"
         />
       </section>

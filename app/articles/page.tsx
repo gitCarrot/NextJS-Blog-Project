@@ -10,8 +10,8 @@ const page = () => {
         <ProjectPreview
           name="Spring Boot"
           description="Spring Boot"
-          imageUrl="/springboot.png"
-          bgColor="#313442"
+          imageUrl="/spring_boot.png"
+          bgColor="#4e4e56"
           dark
         />
       </Link>
@@ -19,40 +19,38 @@ const page = () => {
         <ProjectPreview
           name="Algorithm"
           description="알고리즘"
-          imageUrl="/project-2.png"
-          bgColor="#685cdd"
+          imageUrl="/algorithm.png"
+        />
+      </Link>
+      <Link href="/articles/data-engineering">
+        <ProjectPreview
+          name="Data Engineering"
+          description="Large Scale Traffic"
+          imageUrl="/data-engineering.png"
+          bgColor="#171717"
           dark
         />
       </Link>
         <ProjectPreview
-          name="Admin Onboarding"
-          description="Increase user engagement"
-          imageUrl="/project-3.png"
-        />
-        <ProjectPreview
-          name="Project Dashboard"
-          description="Project management app"
-          bgColor="#4e4e56"
+          name="MicroServices"
+          description="Docker & kubernetes"
+          imageUrl=""
+          bgColor="#685cdd"
           dark
         />
         <ProjectPreview
-          name="Newsy App"
-          description="News aggregator app"
+          name="To be Continue"
+          description="To be Continue"
           imageUrl="/project-2.png"
-          bgColor="#171717"
+          bgColor="#313442"
           dark
         />
         <ProjectPreview
-          name="Krypto"
-          description="Analyze crypto currency"
+          name="To be Continue"
+          description="To be Continue"
           imageUrl="/project-3.png"
         />
       </section>
-
-
-
-
-        
     </div>
   )
 }

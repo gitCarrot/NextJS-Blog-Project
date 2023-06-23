@@ -1,10 +1,12 @@
 import fs from "fs";
+import matter from "gray-matter";
 
-const getPostContent = (slug: string) => {
-    const folder = "posts/";
+const getPostContent = (category: string, slug: string) => {
+    const folder = `posts/${category}/`;
     const file = `${folder}${slug}.md`;
     const content = fs.readFileSync(file, "utf8");
-    return content;
+    const matterResult = matter(content)
+    return matterResult;
 }
 
 export default getPostContent;
