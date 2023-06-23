@@ -6,7 +6,7 @@ export const staticParams = async () => {
   const posts = getSpringContent();
   console.log(posts);
   return posts.map((post) =>({
-    slug : post.slug,
+    category : post.category,
   }));
 };
 
