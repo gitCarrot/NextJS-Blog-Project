@@ -28,7 +28,7 @@ const ArticlePreview: React.FC<Props> = ({
         <div className={`mt-8 h-[19rem] md:h-[25rem] lg:h-[25rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
       style={{ background: `${bgColor}` }}>
           <div
-            className={`h-full w-full object-scale-down px-10 py-6 duration-[500ms] hover:scale-105 bg-cover bg-no-repeat bg-center transition-all ease-in-out`}
+            className={`h-full w-full object-scale-down sm:bg-bottom-center px-10 py-6 duration-[500ms] hover:scale-105 bg-cover bg-no-repeat bg-center transition-all ease-in-out`}
             style={{ backgroundImage: `url('${imageUrl}')`}}
           >
             <div className="flex justify-between">
