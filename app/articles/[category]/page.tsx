@@ -21,7 +21,7 @@ const page = ( props: any ) => {
     />
   ))
   return (
-    <div className="mt-8">{previews}</div>
+    <div className="mt-8 mb-8">{previews}</div>
     
   )
 }

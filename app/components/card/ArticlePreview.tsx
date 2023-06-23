@@ -25,7 +25,7 @@ const ArticlePreview: React.FC<Props> = ({
 }) => {
   return (
     <Link href={`/articles/${category}/${PostMetaData.slug}`}>
-        <div className={`mt-8 h-[25rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
+        <div className={`mt-8 h-[19rem] md:h-[25rem] lg:h-[25rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
       style={{ background: `${bgColor}` }}>
           <div
             className={`h-full w-full object-scale-down px-10 py-6 duration-[500ms] hover:scale-105 bg-cover bg-no-repeat bg-center transition-all ease-in-out`}

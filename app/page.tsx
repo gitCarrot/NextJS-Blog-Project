@@ -26,7 +26,7 @@ export default function Home() {
             Hello, I am a GitCarrot.
           </h1>
           <p className="flex-1">
-          I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. Focused on the backend service using spring boot. I expect to graduate in Spring, 2024.
+           Focused on the backend service using spring boot. I expect to graduate in Spring, 2024.
           </p>
           <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
             <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto">

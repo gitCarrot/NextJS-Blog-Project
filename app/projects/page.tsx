@@ -5,21 +5,20 @@ import ProjectPreview from '../components/card/ProjectPreview'
 const page = () => {
   return (
     <div>
-
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4">
       <Link href="/projects">
         <ProjectPreview
-          name="Spring Boot"
-          description="Spring Boot"
+          name="Project1"
+          description="Project2"
           imageUrl="/springboot.png"
           bgColor="#313442"
           dark
         />
       </Link>
-      <Link href="/articles/algorithm">
+      <Link href="/projects">
         <ProjectPreview
-          name="Algorithm"
-          description="알고리즘"
+          name="Project2"
+          description="Project2"
           imageUrl="/project-2.png"
           bgColor="#685cdd"
           dark
