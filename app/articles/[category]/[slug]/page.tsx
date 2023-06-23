@@ -3,20 +3,19 @@ import getPostMetadata from '@/app/actions/getPostMetadata';
 import getPostContent from "@/app/actions/getPostContent";
 import getSpringContent from "@/app/actions/getSpringMetadata";
 
-export const staticParams = async () => {
-  const posts = getSpringContent();
-  console.log(posts);
-  return posts.map((post) =>({
-    slug : post.slug,
-  }));
-};
-
+// export const staticParams = async () => {
+//   const posts = getSpringContent();
+//   console.log(posts);
+//   return posts.map((post) =>({
+//     slug : post.slug,
+//   }));
+// };
 
 const page = (props: any) => {
   const category = props.params.category;
   const slug = props.params.slug;
 
-    const content = getPostContent(category,slug)
+  const content = getPostContent(category,slug)
   return (
     <div>
         <div className="my-8">
