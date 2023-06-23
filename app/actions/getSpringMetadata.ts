@@ -5,6 +5,7 @@ import { PostMetadata } from "../type/PostMetadata";
 const getSpringMetadata = (): PostMetadata[] => {
   const folder = `posts/spring_boot/`;
   const files = fs.readdirSync(folder);
+  console.log(files);
   const markdownPosts = files.filter((file) => file.endsWith(".md"));
   // Get gray-matter data from each file.
   const posts = markdownPosts.map((fileName) => {

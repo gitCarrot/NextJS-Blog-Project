@@ -14,8 +14,8 @@ const getPostContent = (category: string, slug: string) => {
 }
 export const generateStaticParams = async () => {
   const posts = getSpringMetadata();
-  console.log(posts);
   return posts.map((post) => ({
+    category: post.category,
     slug: post.slug,
   }))
 };
