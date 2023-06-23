@@ -6,16 +6,15 @@ const page = ( props: any ) => {
   const postMetadata = getPostMetadata(category);
   const image = `/${category}.png`;
   const previews = postMetadata.map((post) => (
-    <div className="mt-8">
     <ArticlePreview 
+    key={post.slug}
     PostMetaData={post}
     imageUrl={image}
     category={category}
     />
-    </div>
   ))
   return (
-    <div mt-2>{previews}</div>
+    <div className="mt-8">{previews}</div>
     
   )
 }
