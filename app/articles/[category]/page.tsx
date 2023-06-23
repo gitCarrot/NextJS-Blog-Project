@@ -1,6 +1,5 @@
 import getPostMetadata from '@/app/actions/getPostMetadata'
 import ArticlePreview from '@/app/components/card/ArticlePreview';
-import React from 'react'
 
 const page = ( props: any ) => {
   const category = props.params.category;
