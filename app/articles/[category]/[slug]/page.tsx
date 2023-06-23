@@ -3,9 +3,6 @@ import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
 import getPostContent from "@/app/actions/getPostContent";
 
-
-
-
 const page = (props: any) => {
     const category = props.params.category;
     const slug = props.params.slug;
