@@ -2,13 +2,12 @@ import ArticlePreview from '@/app/components/card/ArticlePreview';
 import getPostMetadata from '@/app/actions/getPostMetadata';
 import getSpringContent from '@/app/actions/getSpringMetadata';
 
-// export const staticParams = async () => {
-//   const posts = getSpringContent();
-//   console.log(posts);
-//   return posts.map((post) =>({
-//     category : post.category,
-//   }));
-// };
+export const generateStaticParams = async () => {
+  const posts = getSpringContent();
+  return posts.map((post) => ({
+    category: post.category,
+  }))
+};
 
 const page = ( props: any ) => {
   const category = props.params.category;

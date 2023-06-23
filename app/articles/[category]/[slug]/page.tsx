@@ -1,15 +1,23 @@
+import fs from "fs";
+import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
-import getPostContent from "@/app/actions/getPostContent";
 import getSpringContent from "@/app/actions/getSpringMetadata";
 
-// export const staticParams = async () => {
-//   const posts = getSpringContent();
-//   console.log(posts);
-//   return posts.map((post) =>({
-//     slug : post.slug,
-//   }));
-// };
+const getPostContent = (category: string, slug: string) => {
+  const folder = `posts/${category}/`;
+  const file = `${folder}${slug}.md`;
+  const content = fs.readFileSync(file, "utf8");
+  const matterResult = matter(content)
+  return matterResult;
+}
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata("spring_boot");
+
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
+};
 
 const page = (props: any) => {
   const category = props.params.category;
