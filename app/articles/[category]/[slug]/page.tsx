@@ -8,7 +8,6 @@ export const staticParams = async () => {
   console.log(posts);
   return posts.map((post) =>({
     slug : post.slug,
-    category : post.category
   }));
 };
 
