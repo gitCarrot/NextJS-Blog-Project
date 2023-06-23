@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -28,31 +27,26 @@ const ArticlePreview: React.FC<Props> = ({
 }) => {
   return (
     <Link href={`/articles/${category}/${PostMetaData.slug}`}>
-      <motion.div
-        className={`m-10 h-[20rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
-        style={{ background: `${bgColor}` }}
-        initial="initial"
-        whileInView="animate"
-        variants={PreviewAnimation}
-      >
-        <div
-          className={`h-full w-full object-scale-down px-10 py-6 duration-[500ms] hover:scale-105 bg-cover bg-no-repeat bg-center transition-all ease-in-out`}
-          style={{ backgroundImage: `url('${imageUrl}')`}}
-        >
-          <div className="flex justify-between">
-            <div>
-              <h2 className="font-medium text-lg dark:text-white">{PostMetaData?.title}</h2>
-              <p className="text-sm text-zinc-500 dark:text-zinc-300">
-                {PostMetaData?.subtitle}
-              </p>
-            </div>
-            
-            <div className="flex items-center">
-              <p className="text-gray-600 text-sm">{PostMetaData?.date}</p>
+        <div className={`h-[25rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
+      style={{ background: `${bgColor}` }}>
+          <div
+            className={`h-full w-full object-scale-down px-10 py-6 duration-[500ms] hover:scale-105 bg-cover bg-no-repeat bg-center transition-all ease-in-out`}
+            style={{ backgroundImage: `url('${imageUrl}')`}}
+          >
+            <div className="flex justify-between">
+              <div>
+                <h2 className="font-medium text-lg dark:text-white">{PostMetaData?.title}</h2>
+                <p className="text-sm text-zinc-500 dark:text-zinc-300">
+                  {PostMetaData?.subtitle}
+                </p>
+              </div>
+          
+              <div className="flex items-center">
+                <p className="text-gray-600 text-sm">{PostMetaData?.date}</p>
+              </div>
             </div>
           </div>
         </div>
-      </motion.div>
     </Link>
   );
 };

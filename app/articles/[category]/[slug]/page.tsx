@@ -1,16 +1,10 @@
 import React from 'react'
-import getPostContent from '@/app/actions/getPostContent';
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
+import getPostContent from "@/app/actions/getPostContent";
 
-export const generateStaticParams = async (props: any) => {
-  const category = props.params.category;
-  const posts = getPostMetadata(category);
-  return posts.map((post) => ({
-    slug: post.slug,
-  }))
-  
-}
+
+
 
 const page = (props: any) => {
     const category = props.params.category;
