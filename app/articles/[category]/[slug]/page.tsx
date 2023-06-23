@@ -7,12 +7,13 @@ const page = (props: any) => {
   const slug = props.params.slug;
   const staticParams = async () => {
     const posts = getPostMetadata(category);
+    console.log(posts);
     return posts.map((post) =>({
       slug : post.slug,
       category : post.category
     }));
   };
-
+    staticParams();
     const content = getPostContent(category,slug)
   return (
     <div>
