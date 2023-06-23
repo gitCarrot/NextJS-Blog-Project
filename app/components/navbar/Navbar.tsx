@@ -1,13 +1,7 @@
 import Link from "next/link";
-import React, { useCallback } from "react";
-import { useState } from "react";
 
 const Navbar = () => {
-  // const [isOpen, setIsOpen] = useState(false);
 
-  // const toggleOpen = useCallback(() => {
-  //   setIsOpen((value) => !value);
-  // }, [])
 
 
   return (

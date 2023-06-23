@@ -1,11 +1,18 @@
-import React from 'react'
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
 import getPostContent from "@/app/actions/getPostContent";
 
 const page = (props: any) => {
-    const category = props.params.category;
-    const slug = props.params.slug;
+  const category = props.params.category;
+  const slug = props.params.slug;
+  const staticParams = async () => {
+    const posts = getPostMetadata(category);
+    return posts.map((post) =>({
+      slug : post.slug,
+      category : post.category
+    }));
+  };
+
     const content = getPostContent(category,slug)
   return (
     <div>
