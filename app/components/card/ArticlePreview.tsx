@@ -10,7 +10,6 @@ interface Props {
   imageUrl?: string | undefined;
   bgColor?: string | undefined;
   dark?: boolean | undefined;
-  onClick?: () => void;
   category?: string | undefined;
   PostMetaData: PostMetadata;
 }
@@ -21,7 +20,6 @@ const ArticlePreview: React.FC<Props> = ({
   imageUrl = "/project-1.png",
   bgColor = "#e4e4e7",
   dark = false,
-  onClick,
   category,
   PostMetaData,
 }) => {
