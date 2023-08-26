@@ -2,8 +2,6 @@ import fs from "fs";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
-import getSpringContent from "@/app/actions/getSpringMetadata";
-import getSpringMetadata from "@/app/actions/getSpringMetadata";
 
 const getPostContent = (slug: string) => {
   const folder = `posts/projects/`;
@@ -16,7 +14,6 @@ export const generateStaticParams = async () => {
   const catelist = ["projects"];
   const posts = getPostMetadata(catelist);
   return posts.map((post) => ({
-    category: post.category,
     slug: post.slug,
   }))
 };

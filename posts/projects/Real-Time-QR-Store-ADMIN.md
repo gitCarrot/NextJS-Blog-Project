@@ -2,7 +2,6 @@
 title: "QR based Real time Point Of Sale System"
 subtitle: "Revolutionizing the Dining Experience for customer"
 date: "2023-06-25"
-category: "spring boot"
 ---
 
 <p>

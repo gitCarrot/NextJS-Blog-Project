@@ -2,8 +2,6 @@ import fs from "fs";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from '@/app/actions/getPostMetadata';
-import getSpringContent from "@/app/actions/getSpringMetadata";
-import getSpringMetadata from "@/app/actions/getSpringMetadata";
 
 const getPostContent = (category: string, slug: string) => {
   const folder = `posts/${category}/`;

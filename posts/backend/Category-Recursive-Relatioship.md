@@ -2,7 +2,7 @@
 title: "[Spring Boot JPA] Recursive Data Relationship"
 subtitle: "infinite subcategory with Tree Arch"
 date: "2023-06-25"
-category: "spring boot"
+category: "backend"
 ---
 
 ```Java

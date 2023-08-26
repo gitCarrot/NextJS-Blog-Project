@@ -1,6 +1,5 @@
 import ArticlePreview from '@/app/components/card/ArticlePreview';
 import getPostMetadata from '@/app/actions/getPostMetadata';
-import getSpringContent from '@/app/actions/getSpringMetadata';
 import { useRouter } from "next/router";
 import { PostMetadata } from '@/app/type/PostMetadata';
 
