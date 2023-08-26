@@ -24,7 +24,7 @@ const page = () => {
           dark
         />
       </Link>
-        <ProjectPreview
+        {/* <ProjectPreview
           name="Admin Onboarding"
           description="Increase user engagement"
           imageUrl="/project-3.png"
@@ -46,7 +46,7 @@ const page = () => {
           name="Krypto"
           description="Analyze crypto currency"
           imageUrl="/project-3.png"
-        />
+        /> */}
       </section>
 
 
