@@ -24,7 +24,7 @@ const page = () => {
       <Link href="/articles/algorithm">
         <ProjectPreview
           name="Algorithm"
-          description="알고리즘"
+          description="Optimization"
           imageUrl="/algorithm.png"
         />
       </Link>
@@ -44,7 +44,7 @@ const page = () => {
           bgColor="#685cdd"
           dark
         />
-        <ProjectPreview
+        {/* <ProjectPreview
           name="To be Continue"
           description="To be Continue"
           imageUrl="/project-2.png"
@@ -55,7 +55,7 @@ const page = () => {
           name="To be Continue"
           description="To be Continue"
           imageUrl="/project-3.png"
-        />
+        /> */}
       </section>
     </div>
   )
