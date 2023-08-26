@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { PostMetadata } from '@/app/type/PostMetadata';
 
 export const generateStaticParams = async () => {
-  return [ { category: "spring_boot"}, { category: "algorithm"}, { category: "data-engineering"} ];
+  return [ { category: "backend"}, { category: "algorithm"}, { category: "data-engineering"}, { category: "frontend"} ];
 };
 
 const page = ( props: any ) => {

@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/ME.jpg')] bg-center bg-contain bg-no-repeat" />
+        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/ME.png')] bg-center bg-contain bg-no-repeat" />
       </section>
 
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4">

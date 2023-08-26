@@ -6,10 +6,10 @@ const page = () => {
   return (
     <div>
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4">
-      <Link href="/projects">
+      <Link href="/projects/Real-Time-QR-Store-ADMIN">
         <ProjectPreview
-          name="Project1"
-          description="Project2"
+          name="QR based Real time Point Of Sale System"
+          description="Revolutionizing the Dining Experience for customer"
           imageUrl="/springboot.png"
           bgColor="#313442"
           dark

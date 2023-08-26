@@ -5,13 +5,20 @@ const page = () => {
   return (
     <div>
     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-4">
-      <Link href="/articles/spring_boot">
+      <Link href="/articles/backend">
         <ProjectPreview
-          name="Spring Boot"
-          description="Spring Boot"
-          imageUrl="/spring_boot.png"
+          name="Backend"
+          description="Spring Boot & Node.js"
+          imageUrl="/backend.png"
           bgColor="#4e4e56"
           dark
+        />
+      </Link>
+      <Link href="/articles/frontend">
+        <ProjectPreview
+          name="Frontend"
+          description="React & Typescipt"
+          imageUrl="/frontend.png"
         />
       </Link>
       <Link href="/articles/algorithm">

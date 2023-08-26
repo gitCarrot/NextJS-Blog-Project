@@ -13,9 +13,8 @@ const getPostContent = (category: string, slug: string) => {
   return matterResult;
 }
 export const generateStaticParams = async () => {
-  const catelist = ["spring_boot", "algorithm", "data-engineering"];
+  const catelist = ["backend", "frontend", "algorithm", "data-engineering"];
   const posts = getPostMetadata(catelist);
-  console.log(posts);
   return posts.map((post) => ({
     category: post.category,
     slug: post.slug,
