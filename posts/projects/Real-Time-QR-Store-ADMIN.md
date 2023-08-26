@@ -9,7 +9,16 @@ date: "2023-06-25"
 
 In an age where convenience is paramount, diners are no longer content with traditional ordering processes. With the rise of digital technology, the way we experience dining needs an upgrade. Enter our new Point Of Sale System, designed to blend convenience with efficiency.
 
-
+> ## Stacks
+>
+> - Next.js
+> - Node.js
+> - Typescript
+> - MySQL
+> - Prismadb
+> - Framer Motion 
+> - GSAP
+> - Zustand
 
 # How does it work?
 
@@ -72,7 +81,7 @@ Recognizing the challenges posed by weak internet connectivity in certain region
 
 > `Advanced Cart State Management in the Project`
 
->- The backend and frontend are hosted on separate servers.
+- The backend and frontend are hosted on separate servers.
 >- The frontend manages the cart, item quantity, and emptying the cart.
 >- The global state is managed using a map that takes dynamic queries of storeId and tableId as keys. These are then linked to PersistStorage, thereby minimizing internet usage.
 >- The only query executed when customers scan a QR code and choose a menu is one that fetches products for each category.

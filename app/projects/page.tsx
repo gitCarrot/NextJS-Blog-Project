@@ -10,7 +10,7 @@ const page = () => {
         <ProjectPreview
           name="QR based Real time Point Of Sale System"
           description="Revolutionizing the Dining Experience for customer"
-          imageUrl="/springboot.png"
+          imageUrl="/qr-posss.png"
           bgColor="#313442"
           dark
         />
