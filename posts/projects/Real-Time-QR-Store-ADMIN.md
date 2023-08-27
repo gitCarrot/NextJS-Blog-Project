@@ -9,6 +9,15 @@ date: "2023-06-25"
 
 In an age where convenience is paramount, diners are no longer content with traditional ordering processes. With the rise of digital technology, the way we experience dining needs an upgrade. Enter our new Point Of Sale System, designed to blend convenience with efficiency.
 
+***You can see the websiteS below***
+
+> ### QR ORDER WEBSITE ->  [Visit Website](https://qr-order-admin.vercel.app/)
+>
+> ### Store For Order (QR)
+> ![](https://lh3.googleusercontent.com/pw/AIL4fc8pVNN4Rsla8lxG6rf99rklXD71erIFmFpj4i2swAZ0xH3Af02sc8o5oWDiKo3RyN0pdMbFzCLFcEfHaRVFa0HsunrDzJ3wOYo1H1EzZk4RDtT71aE=w2400)
+
+
+
 > ## Stacks
 >
 > - Next.js
