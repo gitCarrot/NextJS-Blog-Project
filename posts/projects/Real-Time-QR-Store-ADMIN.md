@@ -1,7 +1,7 @@
 ---
 title: "QR based Real time Point Of Sale System"
 subtitle: "Revolutionizing the Dining Experience for customer"
-date: "2023-06-25"
+date: "2023-07-10"
 ---
 
 <p>
@@ -15,6 +15,9 @@ In an age where convenience is paramount, diners are no longer content with trad
 >
 > ### Store For Order (QR)
 > ![](https://lh3.googleusercontent.com/pw/AIL4fc8pVNN4Rsla8lxG6rf99rklXD71erIFmFpj4i2swAZ0xH3Af02sc8o5oWDiKo3RyN0pdMbFzCLFcEfHaRVFa0HsunrDzJ3wOYo1H1EzZk4RDtT71aE=w2400)
+
+> ### Admin DashBoard for Store (Example)
+> [Admin DashBoard for the store above](https://qr-order-admin.vercel.app/92f73a72-e921-474e-b0e2-d38c3bced91d/data-setting)
 
 
 

@@ -15,11 +15,11 @@ const page = () => {
           dark
         />
       </Link>
-      <Link href="/projects">
+      <Link href="/projects/Hub-for-collaborative-online-wrong-answer-notebooks">
         <ProjectPreview
-          name="Project2"
-          description="Project2"
-          imageUrl="/project-2.png"
+          name="Hub for collaborative online wrong-answer notebooks"
+          description="Competitive Programming with a Comprehensive Problem Archive"
+          imageUrl="/algorithm.png"
           bgColor="#685cdd"
           dark
         />
