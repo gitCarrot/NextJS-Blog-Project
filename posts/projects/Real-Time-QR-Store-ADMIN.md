@@ -1,6 +1,6 @@
 ---
-title: "QR based Real time Point Of Sale System"
-subtitle: "Revolutionizing the Dining Experience for customer"
+title: "HI QR"
+subtitle: "QR based Real time Point Of Sale System"
 date: "2023-07-10"
 ---
 

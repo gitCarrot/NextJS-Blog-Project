@@ -1,6 +1,6 @@
 ---
-title: "Hub for collaborative online wrong-answer notebooks"
-subtitle: "Competitive Programming with a Comprehensive Problem Archive"
+title: "OCarrot"
+subtitle: "Hub for competitive programming and collaborative online wrong-answer notebooks"
 date: "2023-06-10"
 ---
 > ### Official website Url->  [Visit Ocarrot](https://o-carrot.vercel.app/)
