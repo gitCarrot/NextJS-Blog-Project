@@ -35,9 +35,33 @@ Let's explore the underlying architecture that powers OCARROT:
 
 ![](https://lh3.googleusercontent.com/pw/AIL4fc-Ty9SiRT-vXSiVE5UnMzUpvj1losK3KOrfOFsGqVs21wzAc95jDaDo_L_W84i-aIG_foUoq92Z6dBpYbzAE5KElnT5Q_vXKUFmVFeLf3Q2k670S9M=w2400)
 
+- **User**
+  - Contains details of every registered user.
+
 - **Account**
   - Manages user authentication.
   - Related to `User` through `userId`.
+
+- **Session**
+  - Manages user sessions.
+  - Related to `User` through `userId`.
+
+- **Problem**
+  - Lists all programming problems.
+  - Related to `User` through `userId`.
+  - Related to `Website` through `websiteId`.
+  - Related to `Difficulty` through `difficultyId`.
+  - Related to `EnglishLevel` through `englishLevelId`.
+
+- **ProblemsOnTags**
+  - Maps problems to algorithm tags.
+  - Many-to-many relationship between `Problem` and `Tag`.
+  
+- **Tag**
+  - Allows for tagging problems.
+
+- **Website**
+  - Records the source of each problem.
   
 - **Difficulty & EnglishLevel**
   - Categorize problems.
@@ -50,29 +74,7 @@ Let's explore the underlying architecture that powers OCARROT:
   - Provides valuable hints for problems.
   - Related to `Problem` through `problemId`.
   
-- **Problem**
-  - Lists all programming problems.
-  - Related to `User` through `userId`.
-  - Related to `Website` through `websiteId`.
-  - Related to `Difficulty` through `difficultyId`.
-  - Related to `EnglishLevel` through `englishLevelId`.
-  
-- **ProblemsOnTags**
-  - Maps problems to algorithm tags.
-  - Many-to-many relationship between `Problem` and `Tag`.
-  
-- **Session**
-  - Manages user sessions.
-  - Related to `User` through `userId`.
-  
-- **Tag**
-  - Allows for tagging problems.
-  
-- **User**
-  - Contains details of every registered user.
-  
-- **Website**
-  - Records the source of each problem.
+
 
 
 <br><br><br>
