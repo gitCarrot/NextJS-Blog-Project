@@ -45,9 +45,11 @@ Each table is equipped with its unique QR code. Customers can simply scan the co
 
 In today's fast-paced world, we understand the importance of being able to access, browse, and make purchases on the go. Our store has been meticulously designed with the mobile user in mind.
 
+1. **Mobile-Friendly Design**: Our design is not just responsive—it's mobile-optimized. That means every element, from the navigation menus to the product displays, is tailored for a seamless mobile experience. The intuitive layout ensures that you can find what you're looking for with ease and speed.
+
 ![](https://lh3.googleusercontent.com/pw/AIL4fc9x2qzP3GApImRjjDgtVnpH2dsHCjFfOkPRWyBJ4bp6_LtW_knm4iNl6rP7zs1BTkKAzaheGke6U-Rlv3hBHhvqjeqXSbtkm1VIEl7oOWId9fY_ps0=w2400)
 
-1. **Mobile-Friendly Design**: Our design is not just responsive—it's mobile-optimized. That means every element, from the navigation menus to the product displays, is tailored for a seamless mobile experience. The intuitive layout ensures that you can find what you're looking for with ease and speed.
+2. **Incorporated Shopping Cart**: To make your shopping experience as convenient as possible, our mobile store features easy-to-use shopping carts. Whether you're picking out your favorite foods or browsing our diverse range of products, adding items to your cart is just a tap away.
 
 ![](https://lh3.googleusercontent.com/pw/AIL4fc8aVJ2fniRu8zOPJFKpVpqpSRTuQG88u68DCbc69-_x-8bq1lHer3yy35WED4ZJ5t_vdVIiKXI043nNtKNFblXV6ogOe6fZTLeY9XzCZd8-wUrYaro=w2400)
 
@@ -55,11 +57,9 @@ In today's fast-paced world, we understand the importance of being able to acces
 
 ![](https://lh3.googleusercontent.com/pw/AIL4fc-fowLhLERXiLbTePfNkhH8ReX13NX-m5RadMIbjntV4dlckbLZFm4WyYU72MCrROY71TUIKeosUoypMWMAhPUWUgLvYvLof4A4N75KQmaxYaeQRPw=w2400)
 
-2. **Incorporated Shopping Cart**: To make your shopping experience as convenient as possible, our mobile store features easy-to-use shopping carts. Whether you're picking out your favorite foods or browsing our diverse range of products, adding items to your cart is just a tap away.
+3. **Effortless Ordering**: Why wait in line when you can place your order directly from your phone? Our platform allows you to browse, select, and finalize your purchase in just a few taps. It's shopping made simple.
 
 ![](https://lh3.googleusercontent.com/pw/AIL4fc9DTrKwWv5ajSg8S41yg8YueM9ulRDXBI1WN1o_GvRwHK-ourDZ2mq67uA9XpI-VzXVrg7F8a3kz0uLPF5zls7zDqHBnD3PQdR-Qjj5oMAbaI2Y_Ps=w2400)
-
-3. **Effortless Ordering**: Why wait in line when you can place your order directly from your phone? Our platform allows you to browse, select, and finalize your purchase in just a few taps. It's shopping made simple.
 
 4. **Access to Order History**: Keeping track of your past purchases is no longer a chore. With our mobile interface, you can quickly access your order history, making it easy to repurchase your favorite items or keep tabs on your spending.
 
