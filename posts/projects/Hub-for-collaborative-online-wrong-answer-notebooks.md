@@ -23,9 +23,47 @@ Competitive programming has always been a vibrant arena for budding programmers 
 
 OCARROT stands as a beacon for competitive programmers, offering a meticulously organized archive of programming problems. Not just any problems, but those that users find particularly compelling or challenging. It's a platform where users can record, share, and filter only the best problems, ensuring that no intriguing challenge ever goes forgotten.
 
+![](https://lh3.googleusercontent.com/pw/AIL4fc8Ki8bIT2pj8g2d5BUJ330Fq-MjYr7nLSoXvrNt28ti1ODa0xQ647-E1aRZl3F6WcTYB5dVI5sThs6D_36K5IkusFGBBXKAm-S1esv9cX1QYfXzFak=w2400)
+
 ## Why OCARROT?
 
 Every programmer has faced that moment when they recall a particularly challenging problem but can't remember where they encountered it. OCARROT's raison d'être is to eliminate this struggle. By allowing users to log and categorize problems, the platform ensures that no problem ever goes missing in the vast ocean of algorithms.
+
+
+### 1. **Tailored Filtering**
+
+No longer do users need to rely on vague memory or cumbersome bookmarks. OCARROT offers robust filtering options:
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc_JKFfgu41s_goKeCi2S6BLKl2UzToOU5XQSY4F8mJadOXpYv2xiql52tq8VyFsmOsXoEOEJ9rWsxxvY-7s6fS2yf6ePNoZapetcP_83voHEdJgF0w=w2400)
+
+- **By Website**: Whether it's LeetCode, Codeforces, or any other platform, users can filter problems based on their source.
+- **By Algorithm Tag**: Perfect for those wanting to practice specific algorithms or data structures. From Graph Theory to Dynamic Programming, users can hone in on topics of interest.
+- **By Difficulty**: Whether you're a newbie or a seasoned coder, find problems that match your skill level.
+- **By Comprehensive Level**: Some problems are straightforward, while others require intricate understanding. Filter problems based on how in-depth they are.
+
+
+
+### 2. **Favorites at Your Fingertips**
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc-UmKRHAUuE52u_HP9Pfg9KejxvhThTBLoAf362HZzSvRfa0GXcv4c59qGiR70rZVFs0sjrkUkqlZbFsOl79otA2KocEn_9D-uU5k8f7Z32-8MxSvM=w2400)
+
+Found a problem that truly challenges you? Or perhaps one that offers a unique perspective? With a single click, users can add problems to their favorites, ensuring they're always just a click away.
+
+### 3. **Powerful Search**
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc9KWInj-DYVxzdwV9q_It77MqUK0x8xiW8lRb1Sr1-XpKCBsrmWazPy1Xat2a4zOJtNbrPoTZSQ4FAYKIxeJNIW7k179YYxARU-puNxs4_6nDJ3IOI=w2400)
+
+Sometimes, filtering isn't enough. Maybe you remember a specific term or a unique aspect of the problem. OCARROT's powerful search functionality lets users input keywords, offering relevant problems in an instant.
+
+### 4. **Full Control Over Your Posts**
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc8bVZT-tM2RlzH3_Rfn4rhIYQVO5znpKc1OmNF5njeAZswqoVEj4oXC67nJ5zkZUKGlc_39m-q7T3HhA6khkQY9phjMxtiVpJy5nlsXt48GVqBNEQQ=w2400)
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc-WF5eFUJPTEC9yCLzdec7I6gsLBrsd4cD0I76neXJWRQ2jebL2xRSoRwRQBMVcrKavsYbiDJTRdvTEtW6PlDUnKNdzZhY0RONXbuxVJ6kDnjeJqaE=w2400)
+
+
+Posted a problem but realized you missed some details? Or perhaps you've found a more optimal solution? With OCARROT, users retain full control over their posts, allowing for edits and updates anytime. It ensures that the platform remains up-to-date and accurate, benefiting the entire community.
+
 
 ## A Deep Dive into OCARROT's Structure
 
