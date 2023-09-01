@@ -19,7 +19,7 @@ In an age where convenience is paramount, diners are no longer content with trad
 > ### Admin DashBoard for Store (Example)
 > [Admin DashBoard for the store above](https://qr-order-admin.vercel.app/92f73a72-e921-474e-b0e2-d38c3bced91d/data-setting)
 
-
+--- 
 
 > ## Stacks
 >
@@ -40,6 +40,32 @@ In an age where convenience is paramount, diners are no longer content with trad
 Each table is equipped with its unique QR code. Customers can simply scan the code to view the menu and place orders instantly. No waiting, no fuss.
 
 ![](https://lh3.googleusercontent.com/pw/AIL4fc8dk9x6xRqOXuu27yU-96uYJpcGwouPgbFTsQHkcZtnYr9XTsNEZ-WK-UXXv6sHNYeib83QALIk5iI9AQKjFJaf8HjNnz4N1X3UiPzvY6x25OIWtNQ=w2400)
+
+### Our Store: Designed for the Mobile User
+
+In today's fast-paced world, we understand the importance of being able to access, browse, and make purchases on the go. Our store has been meticulously designed with the mobile user in mind.
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc9x2qzP3GApImRjjDgtVnpH2dsHCjFfOkPRWyBJ4bp6_LtW_knm4iNl6rP7zs1BTkKAzaheGke6U-Rlv3hBHhvqjeqXSbtkm1VIEl7oOWId9fY_ps0=w2400)
+
+1. **Mobile-Friendly Design**: Our design is not just responsive—it's mobile-optimized. That means every element, from the navigation menus to the product displays, is tailored for a seamless mobile experience. The intuitive layout ensures that you can find what you're looking for with ease and speed.
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc8aVJ2fniRu8zOPJFKpVpqpSRTuQG88u68DCbc69-_x-8bq1lHer3yy35WED4ZJ5t_vdVIiKXI043nNtKNFblXV6ogOe6fZTLeY9XzCZd8-wUrYaro=w2400)
+
+#### You can preview the product and add it by a click
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc-fowLhLERXiLbTePfNkhH8ReX13NX-m5RadMIbjntV4dlckbLZFm4WyYU72MCrROY71TUIKeosUoypMWMAhPUWUgLvYvLof4A4N75KQmaxYaeQRPw=w2400)
+
+2. **Incorporated Shopping Cart**: To make your shopping experience as convenient as possible, our mobile store features easy-to-use shopping carts. Whether you're picking out your favorite foods or browsing our diverse range of products, adding items to your cart is just a tap away.
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc9DTrKwWv5ajSg8S41yg8YueM9ulRDXBI1WN1o_GvRwHK-ourDZ2mq67uA9XpI-VzXVrg7F8a3kz0uLPF5zls7zDqHBnD3PQdR-Qjj5oMAbaI2Y_Ps=w2400)
+
+3. **Effortless Ordering**: Why wait in line when you can place your order directly from your phone? Our platform allows you to browse, select, and finalize your purchase in just a few taps. It's shopping made simple.
+
+4. **Access to Order History**: Keeping track of your past purchases is no longer a chore. With our mobile interface, you can quickly access your order history, making it easy to repurchase your favorite items or keep tabs on your spending.
+
+Experience the future of shopping with our mobile-friendly store, where convenience meets sleek design. Shop with us today and enjoy a shopping experience like no other.
+
+--- 
 
 ### Real-time Order Management (Socket.io)
 On the backend, administrators and staff have immediate visibility of incoming orders. Whether it's a single café or a chain of restaurants, all orders funnel into a real-time system. This ensures timely preparation and delivery of meals, enhancing customer satisfaction.
